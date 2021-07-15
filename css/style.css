@@ -1,0 +1,230 @@
+* {
+    text-decoration: none !important;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #4C494E !important;
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4C494E !important;
+}
+ul {
+    font-family: 'Poppins', sans-serif;
+    color: #4C494E;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4C494E !important;
+}
+
+
+header {
+    margin-top: -11rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.covidbanner {
+    background-color: #4C494E;
+    height: 50px;
+    color: white !important;
+    text-align: center;
+    padding: 15px;
+}
+.covidbanner p {
+    color: white !important;
+}
+/* Utility navigation */
+.utilities {
+    height: 50px;
+    justify-content: flex-end;
+    padding: 15px;
+    margin-right: 0px;
+    background-color: white;
+}
+.utilities a {
+    color: #483A58;
+    padding: 0 25px;
+    font-weight: 900;
+    background-color: white;
+}
+.utilities a:hover {
+    color: #483A58;
+    padding-top: -1px;
+    padding:  0px;
+    margin: 0 25px;
+    font-weight: 600;
+    background-color: #F2BD00;
+    
+}
+
+/* Navigation bar */
+/* General */
+.customNav {
+    width: 100%;
+    background-color: white !important;
+    background-size: cover;
+    box-shadow: 0 20px 20px -20px #4C494E;
+  }
+  .navbar-brand img {
+    width: 90%;
+    padding-left: 20px;  
+    margin-top: -50px; 
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* Navigation dropdown menu */
+  .dropdown {
+      padding-right: 160px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+      color: #483A58;
+  }
+  .dropdown-menu {
+    background-color: white !important;
+    margin-top: -30px;
+    padding: 0%;
+    box-shadow: 5px #4C494E;
+  }
+  .dropdown-item {
+    color: #4C494E;
+    padding-left: -1rem;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #4C494E;
+      text-decoration: none;
+      background: #F2BD00;
+      font-weight: 500;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: 4C494E !important;
+  }
+  /* Forms */ 
+  .search-container{
+    width: 300px;
+    position: relative;
+  }
+  input#search-bar {
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 40px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #4C494E;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    &:focus {
+      border: 1px solid #4C494E;
+      transition: 0.35s ease;
+      color: #fffff0;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+    }
+   }
+   input#search-bar:hover {
+    border: 1px solid #483A58;
+   }
+  .search-icon{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    top: -38px;
+    left: 7px;
+  }
+  /* Call to action */
+  .navCTA {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+  }
+  .btn a {
+      border-radius: 25px;
+      border: none;
+      background-color: #483A58;
+  }
+  .btn a:hover {
+    color: #483A58;
+    background-color: #F2BD00;
+    
+}
+.btn a:focus {
+    color: #483A58;
+    background-color: #F2BD00 !important;
+    box-shadow: 3px 3px #4C494E;
+   
+}
+  /* Jumbotron */
+  .jumbotron {
+      margin-top: 25vh;
+      height: 68vh;
+      background-image: url(../images/hero.png);
+  }
+  h1 {
+      font-size: 3vw !important;
+      width: 29vw;
+      margin-left: 60vw;
+  }
+  .lead a {
+    width: 200px !important;  
+    margin-left: 60vw;
+    margin-top: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #483A58 ;
+    background-color: #F2BD00 !important;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0 10px 15px -8px #483A58;
+  }
+  .lead a:hover {
+    color: #F2BD00 ;
+    background-color: #483A58 !important;
+  }
+  /* About */
+  .about {
+      padding: 0vh 0vh 10vh 0vh;
+  }
+  .sectiontitle {
+      padding: 10vh 0;
+  }
+  h2 {
+    width: 100%;
+    text-align: center;
+}
+  .sectioncontent {
+      width: 100%;
+  }
+  .illo img {
+      width: 80%;
+      padding-left: 40px;
+  }
+
+  
+  
