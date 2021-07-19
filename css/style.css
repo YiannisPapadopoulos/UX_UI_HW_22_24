@@ -4,10 +4,26 @@
 h1 {
     font-family: 'Playfair Display', serif;
     color: #4C494E !important;
+    font-weight: 900 !important;
 }
 h2 {
     font-family: 'Playfair Display', serif;
     color: #4C494E !important;
+    font-weight: 900;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 30px !important;
+    color: #4C494E !important;
+}
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #FFFFFF !important;
 }
 ul {
     font-family: 'Poppins', sans-serif;
@@ -21,8 +37,6 @@ p {
     font-size: 16px;
     color: #4C494E !important;
 }
-
-
 header {
     margin-top: -11rem;
     width: 100%;
@@ -31,13 +45,15 @@ header {
 }
 .covidbanner {
     background-color: #4C494E;
-    height: 50px;
+    justify-content: center;  
+}
+.covidbanner a {
     color: white !important;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
 }
-.covidbanner p {
-    color: white !important;
+.covidbanner a:hover {
+    text-decoration: underline !important;
 }
 /* Utility navigation */
 .utilities {
@@ -148,12 +164,18 @@ header {
    input#search-bar:hover {
     border: 1px solid #483A58;
    }
-  .search-icon{
+  .fa-search {
     position: relative;
     float: left;
-    width: 30px;
-    height: 30px;
-    top: -38px;
+    font-size: 25px;
+    top: -36px;
+    left: 7px;
+  }
+  .fa-map-marker-alt {
+    position: relative;
+    float: left;
+    font-size: 25px;
+    top: -36px;
     left: 7px;
   }
   /* Call to action */
@@ -161,7 +183,10 @@ header {
     font-size: 15px;
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 900;
+    font-weight: 900; 
+  }
+  .btn {
+      margin-top: -2px;
   }
   .btn a {
       border-radius: 25px;
@@ -176,8 +201,7 @@ header {
 .btn a:focus {
     color: #483A58;
     background-color: #F2BD00 !important;
-    box-shadow: 3px 3px #4C494E;
-   
+    box-shadow: 3px 3px #4C494E;  
 }
   /* Jumbotron */
   .jumbotron {
@@ -206,6 +230,7 @@ header {
   .lead a:hover {
     color: #F2BD00 ;
     background-color: #483A58 !important;
+    box-shadow: 0 5px 7px -4px #483A58;
   }
   /* About */
   .about {
@@ -225,6 +250,186 @@ header {
       width: 80%;
       padding-left: 40px;
   }
+/* Services */
+.services {
+    background-color: #eeeeee;
+}
+.servicescontent {
+    justify-content: space-evenly;
+    padding-bottom: 15vh;
+}
+.card {
+    border: 1px solid #4C494E;
+}
+.servicebtn {
+    width: 15rem;
+    background-color: #483A58;
+    border: none;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+a h6 {
+    padding-top: 2px;
+}
+.servicebtn:hover {
+    background-color: #F2BD00 !important;
+}
+a h6:hover {
+    color: #56357a !important;
+}
+/* Experts */
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding-right: 1em;
+    padding-top: 5px;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;    
+}
+.card {
+    width: 35vw;
+    font-size: 1em;
+    overflow: hidden;
+    border: 1px solid #4C494E;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    margin-top: 20px;
+    margin-bottom: 10vh !important;
+}
+.expertitle {
+    margin-bottom: -9px !important;
 
-  
+}
+.stars {
+    padding-top: 10px !important;
+}
+.fa-star {
+    color: #F2BD00 !important;
+    padding-right: 3px;
+}
+.review {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #0C0C0C !important;
+    margin-bottom: -10px;
+}
+/* Footer */
+footer {
+    margin-right: -50px !important;
+    overflow: hidden;
+    width: 100vw;
+    background-color: #4C494E;
+    padding-top: 10vh !important;
+    padding-bottom: 10vh !important;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logonegative img {
+    width: 60%;
+    padding-bottom: 5vh;
+}
+.mission {
+    width: 350px;
+    color: white !important;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 200 !important;
+}
+.social a {
+    color: white !important;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+    opacity: 70%;
+}
+.social a:hover {
+    opacity: 100%;  
+}
+.footCTA {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 25px;
+    border: 1px solid #4C494E;
+    background-color: white !important;
+    color: #4C494E !important;
+    margin-bottom: 20px;
+}
+.footCTA:hover {
+    background-color: #4C494E !important;
+    color: white !important; 
+    border: 1px solid white;
+}
+.footitle {
+    text-align: left;
+    color: white !important;
+    margin-bottom: -5px !important;
+}
+.footsubtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: white !important;
+}
+.email {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+.email a {
+    color: white !important;
+}
+.email a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+span {
+    letter-spacing: 1px;
+}
+.footlinks a {
+    margin-top: 20px !important;
+    margin-left: -40px !important;
+    color: white !important;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.footlinks a:hover {
+    color: #4C494E !important;
+    background-color: white !important; 
+}
+.footlinks a li {
+    margin-bottom: 10px !important;
+}
+
+.footul a {
+    color: white !important;
+    font-weight: 300;
+    margin-left: -25px !important;
+}
+.footul a:hover {
+    text-decoration: underline !important;
+    color: white !important;
+}
+.appbtn1 img {
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    opacity: 80%;
+}
+.appbtn1 img:hover {
+    opacity: 100%;
+}
+.appbtn2 img {
+    width: 49%;
+    padding-left: 13px;
+    opacity: 80%;
+}
+.appbtn2 img:hover {
+    opacity: 100%;
+}
+
+
+
   

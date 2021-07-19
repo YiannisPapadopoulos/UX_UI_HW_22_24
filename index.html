@@ -21,14 +21,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <!-- Social Media Buttons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- icons -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
     <header>
-        <div class="covidbanner"><p>Find out how our experts comply with COVID-19 safety regulations</p>
+        <div class="row covidbanner"><a href="">Find out how our experts comply with COVID-19 safety regulations</a>
         </div>
         <div class="row utilities"><a href="#">Join our team</a><a href="#">Log in</a><a href="#">Sign up</a>
         </div>
@@ -54,13 +63,13 @@
                 <li class="nav-item field">
                     <form class="search-container">
                         <input type="text" id="search-bar" placeholder="Service or Expert name">
-                        <img class="search-icon" src="../UX_UI_HW_22_24/images/search_24px.png">
+                        <i class="fas fa-search"></i>
                       </form>
                 </li>
                 <li class="nav-item field">
                     <form class="search-container">
                         <input type="text" id="search-bar" placeholder="Area or Zip code">
-                        <img class="search-icon" src="../UX_UI_HW_22_24/images/place_24px.png">
+                        <i class="fas fa-map-marker-alt"></i>
                       </form>
                 </li>
                 <li class="nav-item btn">
@@ -111,6 +120,131 @@
             </div>
         </div>
     </section>
+    <!-- End About -->
+    <!-- Services -->
+    <section class="services">
+        <div class="row sectiontitle"><h2>Choose from a wide variety of 
+            services the ones you<br>need and we will bring them to you, it’s 
+            so easy!</h2>
+        </div>
+        <div class="row servicescontent">
+            <div class="col-xs-12 col-md-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../UX_UI_HW_22_24/images/barber.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BARBER</h5>
+                      <a href="#" class="btn btn-primary servicebtn"><h6>FIND THE EXPERTS</h6></a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-md-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../UX_UI_HW_22_24/images/nails.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">NAILS</h5>
+                      <a href="#" class="btn btn-primary servicebtn"><h6>FIND THE EXPERTS</h6></a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-xs-12 col-md-3 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="../UX_UI_HW_22_24/images/makeup.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">MAKEUP</h5>
+                      <a href="#" class="btn btn-primary servicebtn"><h6>FIND THE EXPERTS</h6></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- End Services -->
+    <!-- Experts -->
+    <section class="container">
+        <div class="row sectiontitle"><h2>Meet the experts of the month</h2>
+        </div>
+        <div class="container">
+            <div class="card float-left">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img class="d-block w-100" src="../UX_UI_HW_22_24/images/expert1.png" alt="">
+                  </div>
+                  <div class="col-sm-8">
+                        <div class="card-block">
+                        <p class="expertitle"><b>MATT SMITH</b><br/> hair stylist</p>
+                        <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                        <p class="review">‘Matt is a true artist. I am looking forward him taking care of my hair again!’ <i>Maggie B.</i> </p>
+                        <br>
+                        <a href="#" class="btn btn-primary servicebtn"><h6>PORTFOLIO</h6></a>
+                        </div>
+                  </div>
+                    
+                </div>
+            </div>
+            <div class="card float-right">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <img class="d-block w-100" src="../UX_UI_HW_22_24/images/expert2.png" alt="">
+                  </div>
+                  <div class="col-sm-8">
+                        <div class="card-block">
+                            <p class="expertitle"><b>LUCAS NEWMAN</b><br/> color expert</p>
+                            <div class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                            <p class="review">‘Lucas is phenomenal, the color he proposed to me is unique. I totally enjoyed having him in my place.’<i>  Lisa G. </i> </p>
+                            <br>
+                            <a href="#" class="btn btn-primary servicebtn"><h6>PORTFOLIO</h6></a>
+                        </div>
+                  </div>
+                    
+                </div>
+            </div>      
+        </div>
+    </section>
+    <!-- End Experts -->
+    <!-- Footer -->
+    <footer class="row">
+        <div class="col-xs-12 col-md-4">
+            <div class="logonegative"><img src=""/>
+            </div>
+            <p class="mission">Beautex is an online platform where customers can find 
+                wellness and beauty experts. We recruit gifted and experienced 
+                professionals who showcase their work on our platform. You can 
+                check their online portfolios and book an appointment online. You can 
+                also share with us your experience through reviews & ratings of our 
+                experts. 
+            </p>
+            <div class="social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-2">
+            <a class="btn btn-primary btn-lg footCTA" href="#" role="button">FIND AN EXPERT</a>
+            <h2 class="footitle">Contact us</h2>
+            <p class="footsubtitle">for any inquiry you may have</p>
+            <div class="email"><a href=""><span>info@beautex.com</span></a></div>
+            <ul class="footlinks">
+              <li><a href="">Join our team</a></li>
+              <li><a href="">Sign up</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-md-1"></div>
+        <div class="col-xs-12 col-md-3">
+            <ul class="footul">
+                <li><a href="">Services</a></li>
+                <li><a href="">Experts</a></li>
+                <li><a href="">Reward System</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+            <div class="appbtn1"><a href=""><img src="../UX_UI_HW_22_24/images/appstore1.png"></a>
+            </div>
+            <div class="appbtn2"><a href=""><img src="../UX_UI_HW_22_24/images/googleplay1.png"></a>
+            </div>
+        </div> 
+      </footer>
+    <!-- End Footer -->
     
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
