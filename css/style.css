@@ -672,12 +672,12 @@ span {
     }
     .jumbotron {
         margin-top: 25vh;
-        height: 63vh;
+        height: 83vw;
         background-image: url(../images/mobileHero.PNG);
         background-repeat: no-repeat;
     }
     .jumbotron h1 {
-        font-size: 4vw !important;
+        font-size: 5vw !important;
         color: white !important;
         width: 50vw;
         margin-left: 5vw;
@@ -694,7 +694,6 @@ span {
         background-color: #F2BD00 !important;
         border-radius: 25px;
         border: none;
-        box-shadow: 0 10px 15px -8px #483A58;
       }
     .sectiontitle h2 {
         margin-top: -10vw;
