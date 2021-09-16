@@ -675,6 +675,7 @@ span {
         height: 83vw;
         background-image: url(../images/mobileHero.PNG);
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .jumbotron h1 {
         font-size: 5vw !important;
